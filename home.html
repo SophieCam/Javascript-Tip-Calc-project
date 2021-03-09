@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <title>Tip Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <p>Today's Date & Time:<span id="clockDisplay"></span></p>
+
+        <!-- The form to enter data -->
+        <form>
+            <!-- Bill Amount -->
+            <label for="billAmt">Bill Amount $</label>
+            <input id="billAmt" name="billamt"><br><br>
+
+
+            <!-- Guest Number -->
+            <label for="guest">Number of Guests:</label>
+            <input id="guest" type="number"><br><br>
+
+            <!--Service-->
+            <label>How Was Your Service?</label>
+            <select id="serviceQual">
+                <option disabled selected value="0">-- Choose an Option --</option>
+                <option value="0.2">20% - Great</option>
+                <option value=".15">15% - It was OK</option>
+                <option value=".10">10% - Bad</option>
+            </select>
+            <!--Tip-->
+            <div class="child-container"> <br>
+                <button type="button" onclick="calculate()">CALCULATE</button>
+                <h2 id="total">Tip$</h2>
+                <h3 id="totalPP">Total$</h3>
+
+
+        </form>
+
+
+
+    </div>
+
+
+    <script src="home.js"></script>
+</body>
+
+</html>

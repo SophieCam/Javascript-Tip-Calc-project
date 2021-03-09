@@ -1,0 +1,45 @@
+body {
+    background: radial-gradient(#f69d3c, #a7c3d0);
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+h2,
+h3 {
+    font-size: 19px;
+}
+
+#serviceQual,
+.child-container,
+label,
+button {
+
+    font-family: inherit;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 8px;
+    font-weight: bolder;
+
+}
+
+.container {
+    margin: auto;
+    width: 25%;
+    margin-top: 5%;
+    padding: 20px;
+    background: ivory;
+    opacity: .9;
+    border-radius: 5px;
+}
+
+p {
+    text-decoration: underline;
+}
